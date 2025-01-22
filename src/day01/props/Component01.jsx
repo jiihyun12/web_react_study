@@ -1,3 +1,5 @@
+// Name.jsx
+
 import React from 'react';
 
 const Component01 = (props) => {

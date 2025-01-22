@@ -1,13 +1,12 @@
 
 import './App.css'
-import Colors from './day01/state/Colors';
+import CheckMessage from './day02/map/expert/CheckMessage';
 
 
 function App() {
   return (
   <> 
-    {/* <Container/> */}
-    <Colors />
+  <CheckMessage />
   </>
   );
 }

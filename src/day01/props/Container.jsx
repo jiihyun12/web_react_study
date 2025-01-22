@@ -36,3 +36,7 @@ const Container = () => {
 };
 
 export default Container;
+
+
+// useState를 쓰는 이유
+// 상태를 바꾸기 위해
