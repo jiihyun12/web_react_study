@@ -1,12 +1,13 @@
 
 import './App.css'
-import CheckMessage from './day02/map/expert/CheckMessage';
+import ProductContainer from './day04/life-cycle/function/side-effect/memoization/ProductContainer';
+
 
 
 function App() {
   return (
   <> 
-  <CheckMessage />
+    <ProductContainer />
   </>
   );
 }

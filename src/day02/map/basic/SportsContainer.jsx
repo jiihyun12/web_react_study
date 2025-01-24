@@ -31,7 +31,7 @@ const SportsContainer = () => {
         <div>
             <ul>
                 {sportsList.map((sports , i)=> <Sports key={i} sports={sports} /> )}  
-                {/*반복이 돌고 있는 친구에게 유니크한 키값을 준다. (인덱스값)  */}ㄴ
+                {/*반복이 돌고 있는 친구에게 유니크한 키값을 준다. (인덱스값)  */}
             </ul>
         </div>
     );
