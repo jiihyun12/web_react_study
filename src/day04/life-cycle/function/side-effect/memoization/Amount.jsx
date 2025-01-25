@@ -10,7 +10,7 @@ const Amount = ({
   onClickToSubtractAmount,
   onClickToSubtractCoupon
 }) => {
-  console.log("자식 랜더링")
+  console.log("자식 랜더링!")
   const { amount, coupon } = props;
 
   return (
