@@ -1,13 +1,13 @@
 
 import './App.css'
-import ProductContainer from './day04/life-cycle/function/side-effect/memoization/ProductContainer';
+import AinmalsContainer from './day05/context/expert/AinmalsContainer.jsx';
 
 
 
 function App() {
   return (
   <> 
-    <ProductContainer />
+    <AinmalsContainer />
   </>
   );
 }
