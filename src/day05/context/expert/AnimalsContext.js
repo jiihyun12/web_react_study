@@ -14,6 +14,10 @@ const AnimalsContext = createContext({
 const AnimalsProvider = ({children}) => {
     const [animals, setAnimals] = React.useState(["누렁이", "점박이", "얼룩이"])
     // console.log(animals)
+
+    // const insert = (animal)
+    // insert함수에서 animal 사용할거니까
+    
     const value = {
         state : {animals}, action : {setAnimals}    
     }

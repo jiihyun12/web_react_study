@@ -7,6 +7,7 @@ const Child = () => {
     const {setFontSize} = action;
     console.log(fontSize)
 
+
     return (
         <>
             <p style={{fontSize}}>글자를 나타내기</p>

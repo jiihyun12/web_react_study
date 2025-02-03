@@ -29,15 +29,17 @@ const Animals = () => {
     return (
         <div>
             {animals.map((animal, i) => {   
-                return <button key={i} onClick={onClickToRemove}>{animal}</button>
+                return <button key={i} onClick={onClickToRemove}>{animal}</button> // 돔으로 return
             })}
            {/* <button onClick={onClickToRemove}>누렁이</button>
            <button onClick={onClickToRemove}>점박이</button>
            <button onClick={onClickToRemove}>얼룩이</button>    */}
 
-           <input type="text" onKeyUp={(e)=>{
+           <input type="text" placeholder='동물 이름을 입력해주세요' onKeyUp={(e)=>{
                if(e.key === "Enter"){
-                   setAnimals([...animals, e.target.value])}}}
+                   setAnimals([...animals, e.target.value])}}}  
+                   // input에 입력한 글자를 들고 와야 한다.
+                   // 
            />
         </div>
     );
